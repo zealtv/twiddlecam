@@ -1,0 +1,22 @@
+{
+  "osc": {
+    "port": 1111
+  },
+  "camera": {
+    "deviceIndex": 0,
+    "width": 640,
+    "height": 480,
+    "fps": 30,
+    "forceFallback": false,
+    "pipelineMode": "yuy2_low_latency"
+  },
+  "effects": {
+    "maxZoom": 4.0,
+    "maxBlur": 12.0,
+    "maxSlurpSeconds": 2.0
+  },
+  "performance": {
+    "useShaders": true,
+    "showDebugOverlay": true
+  }
+}
